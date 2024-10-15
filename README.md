@@ -30,12 +30,9 @@ This project implements a basic in-memory database system in Java. The system al
    ```bash
    javac -d bin -sourcepath src src/com/memorydatabase/*.java
 Run the Application: Once compiled, you can run the App class to see the in-memory database system in action:
-bash
-Copy code
-java -cp bin com.memorydatabase.App
-Example Output
-plaintext
-Copy code
+
+Example Output:
+```
 Database Created Successfully
 Table Created Successfully
 Successfully added a row
@@ -50,3 +47,4 @@ Table doesn't exist
 Table deleted successfully
 Database doesn't exist
 Database Deleted
+```
